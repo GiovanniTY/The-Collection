@@ -167,7 +167,6 @@ document.body.insertBefore(header, document.getElementById('movieContainer'));
       },
   ];
 
-
   function createFilmCards() {
     const movieContainer = document.getElementById('movieContainer');
 
@@ -197,8 +196,12 @@ document.body.insertBefore(header, document.getElementById('movieContainer'));
     `;
         // Add the film card to the film container
         movieContainer.appendChild(filmCard);
+
+       
     });
 }
+
+
 
 
 document.addEventListener('DOMContentLoaded', createFilmCards);
